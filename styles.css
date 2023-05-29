@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family:'Times New Roman', Times, serif;
+  color:#675e6f;
+}
+
+
+h2{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+	margin: 50px auto;
+	max-width: 1240px;
+	border-radius: 1rem;
+}
+
+.bg-heading{
+	background-color: #ABB0B8;
+}
+
+#products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+	margin: 50px auto;
+	max-width: 1240px;
+	border-radius: 1rem;
+}
+
+.product{
+	padding: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 1rem;
+}
+.product .bg-success {
+    
+    background: #accf9b !important;
+ }
+.product .bg-danger {
+    
+     background: #f5b397 !important;
+ }
+.product .btn-success {
+    color: #000;
+    background:  #73b34a !important;
+    border-color:  #73b34a;
+    border-radius: 10rem;
+}
+.product .btn-success:hover{
+    color: #000;
+    background: #73b34a !important;
+    border-color: #73b34a;
+    border-radius: 10rem;
+}
+.product .btn-danger {
+    color: #000;
+    background: #f57f33 !important;
+    border-color: #f57f33;
+    border-radius: 10rem;
+}
+.product .btn-danger:hover{
+    color: #000;
+    background: #f57f33 !important;
+    border-color: #f57f33;
+    border-radius: 10rem;
+}
